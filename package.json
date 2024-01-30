@@ -1,0 +1,41 @@
+{
+  "name": "practicalmath",
+  "version": "1.0.0",
+  "description": "basic mathematical functions",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learn-hunger/practicalMath.git"
+  },
+  "keywords": [
+    "practial",
+    "math",
+    "basic",
+    "maths",
+    "applied",
+    "maths"
+  ],
+  "author": "pvscreations",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/learn-hunger/practicalMath/issues"
+  },
+  "homepage": "https://github.com/learn-hunger/practicalMath#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "mathjs": "^12.3.0"
+  }
+}

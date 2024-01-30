@@ -1,0 +1,11 @@
+// tsconfig.json
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "CommonJS",
+      "outDir": "dist",
+      "rootDir": "src",
+      "declaration": true
+    },
+  }
+  
