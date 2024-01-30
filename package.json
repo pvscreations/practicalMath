@@ -12,7 +12,7 @@
     "package.json",
     "README.md",
     "LICENSE"
-  ],  
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/learn-hunger/practicalMath.git"
