@@ -22,12 +22,14 @@ import { PracticalMath } from 'practicalmath';
 PracticalMath.euclideanDistance({ point1: {x:1,y:2,z:3}, point2: {x:3,y:4,z:2} });
 
 ```
-# 2.Available Functions
-#####* findBestFitLine
-#####* euclideanDistance
-#####* calculateCosineAngleABC
-#####* midPoint
-#####* distancePointToLine
+# 2. Available Functions
+
+- **findBestFitLine**
+- **euclideanDistance**
+- **calculateCosineAngleABC**
+- **midPoint**
+- **distancePointToLine**
+
 
 # Future Scopes
 * <b> Evolve </b>: Develop with more usefull functions
@@ -35,3 +37,5 @@ PracticalMath.euclideanDistance({ point1: {x:1,y:2,z:3}, point2: {x:3,y:4,z:2} }
 * <b> Cross-Platform Support</b> : Develop similar packages for Flutter,Java,Python.
 
 # References
+* [published npm package link](https://www.npmjs.com/package/practicalmath)
+* [code link](/src/index.ts)
