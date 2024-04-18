@@ -23,11 +23,11 @@ PracticalMath.euclideanDistance({ point1: {x:1,y:2,z:3}, point2: {x:3,y:4,z:2} }
 
 ```
 # 2.Available Functions
-#####* findBestFitLine
-#####* euclideanDistance
-#####* calculateCosineAngleABC
-#####* midPoint
-#####* distancePointToLine
+##### * findBestFitLine
+##### * euclideanDistance
+##### * calculateCosineAngleABC
+##### * midPoint
+##### * distancePointToLine
 
 # Future Scopes
 * <b> Evolve </b>: Develop with more usefull functions
