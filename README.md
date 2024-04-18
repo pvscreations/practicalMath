@@ -14,8 +14,8 @@ The inspiration for creating Practical Math arose during the development of Tens
 
 # Usage
 
-### 1.1 CDN Approach 
-To effortlessly incorporate the chatbot into your project, follow these simple steps:
+### 1. Approach 
+To effortlessly incorporate the practicalmath into your project, follow these simple steps:
 #### Importing ####
 ```
 import { PracticalMath } from 'practicalmath';

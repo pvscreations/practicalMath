@@ -26,7 +26,7 @@ jobs:
               run: npm pack --dry-run
               working-directory: ./
             - name : "versioning"
-              run: npm version patch
+              run: npm version patch --no-git-tag-version
               working-directory: ./
             - name : "build"
               run: npm run build
