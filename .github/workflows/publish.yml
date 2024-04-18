@@ -27,9 +27,13 @@ jobs:
               working-directory: ./
             - name : "versioning"
               run: |
-                repository="${{github.repository}}"                
-                IFS='/' read -ra parts <<< "${repository}"
-                latest_version=$(npm view "${parts[1]}" version)      
+                # based on repo
+                # repository="${{github.repository}}"                
+                # IFS='/' read -ra parts <<< "${repository}"
+                # latest_version=$(npm view "${parts[1]}" version) 
+                package_name=$(node -e "console.log(require('./package.json').name)")
+                latest_version=$(npm view "${package_name}" version) 
+    
                 npm version "$latest_version" --no-git-tag-version
                 npm version patch --no-git-tag-version
               working-directory: ./
