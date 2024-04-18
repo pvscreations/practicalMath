@@ -1,6 +1,6 @@
 {
   "name": "practicalmath",
-  "version": "1.0.2-0",
+  "version": "1.0.3-0",
   "description": "basic mathematical functions",
   "main": "dist/index.js",
   "scripts": {
