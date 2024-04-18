@@ -26,7 +26,12 @@ jobs:
               run: npm pack --dry-run
               working-directory: ./
             - name : "versioning"
-              run: npm version patch --no-git-tag-version
+              run: |
+                repository="${{github.repository}}"                
+                IFS='/' read -ra parts <<< "${repository}"
+                latest_version=$(npm view "${parts[1]}" version)      
+                npm version "$latest_version" --no-git-tag-version
+                npm version patch --no-git-tag-version
               working-directory: ./
             - name : "build"
               run: npm run build
