@@ -12,6 +12,7 @@ jobs:
             - name: node
               uses: actions/setup-node@v2
               with:
+                  clean: true
                   node-version: 20
                   registry-url: https://registry.npmjs.org
             - name : "configuring git"
