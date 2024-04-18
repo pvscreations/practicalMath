@@ -35,3 +35,5 @@ PracticalMath.euclideanDistance({ point1: {x:1,y:2,z:3}, point2: {x:3,y:4,z:2} }
 * <b> Cross-Platform Support</b> : Develop similar packages for Flutter,Java,Python.
 
 # References
+* [published npm package link](https://www.npmjs.com/package/practicalmath)
+* [code link](/src/index.ts)
